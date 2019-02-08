@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Alura Typer</title>
+    <link rel="stylesheet" href="css/libs/materialize.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/libs/google-fonts.css">
+</head>
+<body>
+    <div class="container">
+        
+        <h1 class="center">Alura Typer</h1>
+
+        <p class="frase center">Esta frase tem 5 palavras.</p>
+
+        <ul class="informacoes center">
+            <li>
+                <i class="small material-icons">description</i>
+                <span id="tamanho-frase"></span> palavras
+            </li>
+            <li>
+                <i class="small material-icons">query_builder</i>
+                <span id="contador-digitacao">5</span> segundos
+            </li>
+        </ul>
+
+        <textarea id="campo-digitacao" cols="40" rows="10"></textarea>
+        <div class="botoes">
+            <a id="botao-reiniciar" class="btn-floating btn-large waves-effect waves-light red">
+                <i class="material-icons">restore</i>
+            </a>
+        </div>
+        <ul class="center">
+            <li><span id="contador-caracteres">0</span> caracteres</li>
+            <li><span id="contador-palavras">0</span> palavras</li>
+        </ul>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
