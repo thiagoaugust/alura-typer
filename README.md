@@ -1,0 +1,2 @@
+# alura-typer
+Jogo typer
